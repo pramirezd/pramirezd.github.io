@@ -24,10 +24,10 @@
       
     </head>
 
-    <body>
+    <body class="bg-dark bg-opacity-10">
         <!-- Configuración de navbar -->
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
+            <nav class="navbar navbar-expand-md navbar-dark bg-info mb-4 fixed-top">
                 <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo-pr.png" alt="Pablo-Ramírez" width="200" class="d-inline-block align-text-top">
@@ -37,9 +37,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio - CV</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active" href="curriculum.html">Currículum</a>
                     <a class="nav-link active" href="portafolio.html">Portafolio</a>
-                    <a class="nav-link active" href="https://www.linkedin.com/in/pabloramirezd/" target="_blank">Linked<i class="fa-brands fa-linkedin"></i></a>
+                    <!-- <a class="nav-link active" href="https://www.linkedin.com/in/pabloramirezd/" target="_blank">Linked<i class="fa-brands fa-linkedin"></i></a> -->
                     </div>
                 </div>
                 </div>
@@ -47,18 +48,58 @@
         </header> 
 
         <main>
-            <h4 class="text-center">Mi Currículum</h4>
-            <section>
+            
+            <section id="mi-curriculum" class="container text-center my-5 py-2">
+                <h1 class="display-7 fw-bold my-4">Pablo Ramírez</h1>
                 <div class="container">
-                    <div class="card d-flex flex-row">
-                        <img src="assets/img/foto-cv.jpg" class="card-img-top" alt="foto-pablo-ramirez" style="width: 5rem;">
-                        <div class="card-body" style="width: 20rem;">
-                          <p class="card-text text-justify">Ingeniero Civil Industrial de la Universidad de Chile, responsable, interesado en aprender constantemente cosas nuevas y adquirir nuevas habilidades de forma rápida y continua, proactivo, capaz de trabajar bajo situaciones de presión o de estrés. Habilidades comunicativas y trabajo en equipo. Capaz de compartir y crear un buen ambiente laboral que permita un desarrollo profesional constante.</p>
+                    <div class="container col-lg-10 col-md-8">
+                        <div class="container p-3 text-center">
+                            <img src="assets/img/foto-cv.jpg" class="border border-1 rounded-3" width="150" alt="foto-cv">
                         </div>
-                      </div>
+                    </div>
+                </div>
+                <h2 class="display-7 fw-bold my-4">Ingeniero Civil Industrial</h2>
+            </section>
+
+            <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+                <h2 class="display-7 fw-bold my-4">Sobre mi</h2>
+        
+                <p class="my-4">
+                    Ingeniero Civil Industrial de la Universidad de Chile, responsable, interesado en aprender constantemente cosas nuevas y adquirir nuevas habilidades de forma rápida y continua, proactivo, capaz de trabajar bajo situaciones de presión o de estrés. Habilidades comunicativas y trabajo en equipo. Capaz de compartir y crear un buen ambiente laboral que permita un desarrollo profesional constante.
+                </p>
+        
+        
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <i class="fas fa-camera fa-3x my-3"></i>
+                        <h3 class="my-3 fw-bold">Fotógrafo de paisajes</h3>
+                        <p class="my-3">
+                            Busco capturar la hermosura de los paisajes del fin del mundo para que todos puedan apreciar la belleza austral.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="fas fa-bullhorn fa-3x my-3"></i>
+                        <h3 class="my-3 fw-bold">Información de la Patagonia</h3>
+                        <p class="my-3">
+                            Te doy los mejores datos por si quieres viajar a la patagonia y recorrerla para disfrutar solo o acompañado.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="far fa-map fa-3x my-3"></i>
+                        <h3 class="my-3 fw-bold">Bloggero de viajes</h3>
+                        <p class="my-3">
+                            Escribo sobre mis viajes, experiencias, te doy recomendaciones y todo lo necesario para que tengas referencias de lo que es estar en la patagonia.
+                        </p>
+                    </div>
                 </div>
             </section>
         </main>
+
+        <footer class="bg-info text-center text-light p-4">
+            <p class="mb-0">Pablo Ramírez 2023. &#174; Todos los derechos reservados.</p>
+        </footer>
 
     </body>
     
